@@ -7,4 +7,4 @@ Hangman Game is my first Python project that helps me implement my knoweldge int
 
 
 Hangman Game is developed in a way that computer chooses a random word of list of words and the user needs to guess a letter of that word.
-Starting by default of 5 lives or right of 5 mistakes, furthermore more than 5 wrong guesses, the game is over the player losses.
+Starting by default of 5 lives or right of 5 mistakes, furthermore more than 5 wrong guesses, the game is over and the player losses.
