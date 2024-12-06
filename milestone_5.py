@@ -1,6 +1,6 @@
 import random
 
-word_list = ['apple', 'banana', 'peach', 'pineaple', 'strawberry']
+word_list = ['apple', 'banana', 'peach', 'pineapple', 'strawberry']
 
 class Hangman():
            
