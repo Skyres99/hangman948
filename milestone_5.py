@@ -1,6 +1,6 @@
 import random
 
-word_list = ['apple', 'banana', 'peach', 'pineaaple', 'strawberry']
+word_list = ['apple', 'banana', 'peach', 'pineaple', 'strawberry']
 
 class Hangman():
            
@@ -15,9 +15,9 @@ class Hangman():
       def check_guess(self, guess):
             if guess in self.word:
                   print(f'Good guess! {guess} is in the word')
-                  for _ in range(len(self.word)):
-                        if self.word[_] == guess:
-                              self.word_guessed[_] == guess
+                  for index, char in enumerate(self.word):
+                        if char == guess:
+                              self.word_guessed[index] == guess
                   self.num_letters -= 1
             else:
                   self.num_lives -= 1
